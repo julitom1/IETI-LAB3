@@ -29,7 +29,7 @@
    
 4. Create a new exception class inside the *exception* package called *InvalidCredentialsException*:
    
- ![](img/14.JPG)
+ ![](img/15.JPG)
 
 5. Crate a new Rest Controller class inside the *controller.auth* package called *AuthController*
 
@@ -72,6 +72,10 @@ This filter will help you verify the authroization token send on the request aut
    * Make a new GET request to the *user* endpoint adding the *Autorization header* with the word *Bearer* as this
      
      ![](img/13.JPG)
+     
+     NO ME FUNCIONO
+     
+     ![](img/14.JPG)
      
      
 ### Challenge Yourself: Implement a mechanism to support Application tokens
