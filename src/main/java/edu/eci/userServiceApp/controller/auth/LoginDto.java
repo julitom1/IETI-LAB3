@@ -5,7 +5,10 @@ public class LoginDto {
     String email;
 
     String password;
-
+    public LoginDto( )
+    {
+        
+    }
     public LoginDto(String email, String password )
     {
         this.email = email;
